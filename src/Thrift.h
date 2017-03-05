@@ -18,3 +18,13 @@
  */
 
 #define ThriftVersion @"0.9.3"
+
+//! Project version number for Thrift_iOS.
+FOUNDATION_EXPORT double Thrift_iOSVersionNumber;
+
+//! Project version string for Thrift_iOS.
+FOUNDATION_EXPORT const unsigned char Thrift_iOSVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <Thrift_iOS/PublicHeader.h>
+
+
