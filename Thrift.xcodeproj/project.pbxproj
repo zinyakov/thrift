@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		997DAFE31E6C9A8800FE98F3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997DAFA41E6C9A8800FE98F3 /* Info.plist */; };
+		997DAFE41E6C9A8800FE98F3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997DAFA41E6C9A8800FE98F3 /* Info.plist */; };
+		997DAFE51E6C9A8800FE98F3 /* TBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFA61E6C9A8800FE98F3 /* TBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFE61E6C9A8800FE98F3 /* TBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFA61E6C9A8800FE98F3 /* TBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFE71E6C9A8800FE98F3 /* TBinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFA71E6C9A8800FE98F3 /* TBinaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFE81E6C9A8800FE98F3 /* TBinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFA71E6C9A8800FE98F3 /* TBinaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFE91E6C9A8800FE98F3 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFA81E6C9A8800FE98F3 /* TBinaryProtocol.m */; };
+		997DAFEA1E6C9A8800FE98F3 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFA81E6C9A8800FE98F3 /* TBinaryProtocol.m */; };
+		997DAFEB1E6C9A8800FE98F3 /* TCompactProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFA91E6C9A8800FE98F3 /* TCompactProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFEC1E6C9A8800FE98F3 /* TCompactProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFA91E6C9A8800FE98F3 /* TCompactProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFED1E6C9A8800FE98F3 /* TCompactProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFAA1E6C9A8800FE98F3 /* TCompactProtocol.m */; };
+		997DAFEE1E6C9A8800FE98F3 /* TCompactProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFAA1E6C9A8800FE98F3 /* TCompactProtocol.m */; };
+		997DAFEF1E6C9A8800FE98F3 /* TMultiplexedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFAB1E6C9A8800FE98F3 /* TMultiplexedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFF01E6C9A8800FE98F3 /* TMultiplexedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFAB1E6C9A8800FE98F3 /* TMultiplexedProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFF11E6C9A8800FE98F3 /* TMultiplexedProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFAC1E6C9A8800FE98F3 /* TMultiplexedProtocol.m */; };
+		997DAFF21E6C9A8800FE98F3 /* TMultiplexedProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFAC1E6C9A8800FE98F3 /* TMultiplexedProtocol.m */; };
+		997DAFF31E6C9A8800FE98F3 /* TProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFAD1E6C9A8800FE98F3 /* TProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFF41E6C9A8800FE98F3 /* TProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFAD1E6C9A8800FE98F3 /* TProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFF51E6C9A8800FE98F3 /* TProtocolDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFAE1E6C9A8800FE98F3 /* TProtocolDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFF61E6C9A8800FE98F3 /* TProtocolDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFAE1E6C9A8800FE98F3 /* TProtocolDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFF71E6C9A8800FE98F3 /* TProtocolDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFAF1E6C9A8800FE98F3 /* TProtocolDecorator.m */; };
+		997DAFF81E6C9A8800FE98F3 /* TProtocolDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFAF1E6C9A8800FE98F3 /* TProtocolDecorator.m */; };
+		997DAFF91E6C9A8800FE98F3 /* TProtocolError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB01E6C9A8800FE98F3 /* TProtocolError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFFA1E6C9A8800FE98F3 /* TProtocolError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB01E6C9A8800FE98F3 /* TProtocolError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFFB1E6C9A8800FE98F3 /* TProtocolError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB11E6C9A8800FE98F3 /* TProtocolError.m */; };
+		997DAFFC1E6C9A8800FE98F3 /* TProtocolError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB11E6C9A8800FE98F3 /* TProtocolError.m */; };
+		997DAFFD1E6C9A8800FE98F3 /* TProtocolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB21E6C9A8800FE98F3 /* TProtocolFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFFE1E6C9A8800FE98F3 /* TProtocolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB21E6C9A8800FE98F3 /* TProtocolFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DAFFF1E6C9A8800FE98F3 /* TProtocolUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB31E6C9A8800FE98F3 /* TProtocolUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0001E6C9A8800FE98F3 /* TProtocolUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB31E6C9A8800FE98F3 /* TProtocolUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0011E6C9A8800FE98F3 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB41E6C9A8800FE98F3 /* TProtocolUtil.m */; };
+		997DB0021E6C9A8800FE98F3 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB41E6C9A8800FE98F3 /* TProtocolUtil.m */; };
+		997DB0031E6C9A8800FE98F3 /* TSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB61E6C9A8800FE98F3 /* TSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0041E6C9A8800FE98F3 /* TSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB61E6C9A8800FE98F3 /* TSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0051E6C9A8800FE98F3 /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB71E6C9A8800FE98F3 /* TSocketServer.m */; };
+		997DB0061E6C9A8800FE98F3 /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB71E6C9A8800FE98F3 /* TSocketServer.m */; };
+		997DB0071E6C9A8800FE98F3 /* TApplicationError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB81E6C9A8800FE98F3 /* TApplicationError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0081E6C9A8800FE98F3 /* TApplicationError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFB81E6C9A8800FE98F3 /* TApplicationError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0091E6C9A8800FE98F3 /* TApplicationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB91E6C9A8800FE98F3 /* TApplicationError.m */; };
+		997DB00A1E6C9A8800FE98F3 /* TApplicationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFB91E6C9A8800FE98F3 /* TApplicationError.m */; };
+		997DB00B1E6C9A8800FE98F3 /* TBaseClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFBA1E6C9A8800FE98F3 /* TBaseClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB00C1E6C9A8800FE98F3 /* TBaseClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFBA1E6C9A8800FE98F3 /* TBaseClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB00D1E6C9A8800FE98F3 /* TBaseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBB1E6C9A8800FE98F3 /* TBaseClient.m */; };
+		997DB00E1E6C9A8800FE98F3 /* TBaseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBB1E6C9A8800FE98F3 /* TBaseClient.m */; };
+		997DB00F1E6C9A8800FE98F3 /* TBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBC1E6C9A8800FE98F3 /* TBinary.swift */; };
+		997DB0101E6C9A8800FE98F3 /* TBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBC1E6C9A8800FE98F3 /* TBinary.swift */; };
+		997DB0111E6C9A8800FE98F3 /* TEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBD1E6C9A8800FE98F3 /* TEnum.swift */; };
+		997DB0121E6C9A8800FE98F3 /* TEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBD1E6C9A8800FE98F3 /* TEnum.swift */; };
+		997DB0131E6C9A8800FE98F3 /* TError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFBE1E6C9A8800FE98F3 /* TError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0141E6C9A8800FE98F3 /* TError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFBE1E6C9A8800FE98F3 /* TError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0151E6C9A8800FE98F3 /* TError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBF1E6C9A8800FE98F3 /* TError.m */; };
+		997DB0161E6C9A8800FE98F3 /* TError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFBF1E6C9A8800FE98F3 /* TError.m */; };
+		997DB0191E6C9A8800FE98F3 /* Thrift.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC11E6C9A8800FE98F3 /* Thrift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB01A1E6C9A8800FE98F3 /* Thrift.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC11E6C9A8800FE98F3 /* Thrift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB01B1E6C9A8800FE98F3 /* TList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFC21E6C9A8800FE98F3 /* TList.swift */; };
+		997DB01C1E6C9A8800FE98F3 /* TList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFC21E6C9A8800FE98F3 /* TList.swift */; };
+		997DB01D1E6C9A8800FE98F3 /* TMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFC31E6C9A8800FE98F3 /* TMap.swift */; };
+		997DB01E1E6C9A8800FE98F3 /* TMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFC31E6C9A8800FE98F3 /* TMap.swift */; };
+		997DB01F1E6C9A8800FE98F3 /* TProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC41E6C9A8800FE98F3 /* TProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0201E6C9A8800FE98F3 /* TProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC41E6C9A8800FE98F3 /* TProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0211E6C9A8800FE98F3 /* TProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC51E6C9A8800FE98F3 /* TProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0221E6C9A8800FE98F3 /* TProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC51E6C9A8800FE98F3 /* TProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0231E6C9A8800FE98F3 /* TProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFC61E6C9A8800FE98F3 /* TProtocol.swift */; };
+		997DB0241E6C9A8800FE98F3 /* TProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFC61E6C9A8800FE98F3 /* TProtocol.swift */; };
+		997DB0251E6C9A8800FE98F3 /* TAsyncTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC81E6C9A8800FE98F3 /* TAsyncTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0261E6C9A8800FE98F3 /* TAsyncTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC81E6C9A8800FE98F3 /* TAsyncTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0271E6C9A8800FE98F3 /* TFramedTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC91E6C9A8800FE98F3 /* TFramedTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0281E6C9A8800FE98F3 /* TFramedTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFC91E6C9A8800FE98F3 /* TFramedTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0291E6C9A8800FE98F3 /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFCA1E6C9A8800FE98F3 /* TFramedTransport.m */; };
+		997DB02A1E6C9A8800FE98F3 /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFCA1E6C9A8800FE98F3 /* TFramedTransport.m */; };
+		997DB02B1E6C9A8800FE98F3 /* THTTPSessionTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFCB1E6C9A8800FE98F3 /* THTTPSessionTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB02C1E6C9A8800FE98F3 /* THTTPSessionTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFCB1E6C9A8800FE98F3 /* THTTPSessionTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB02D1E6C9A8800FE98F3 /* THTTPSessionTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFCC1E6C9A8800FE98F3 /* THTTPSessionTransport.m */; };
+		997DB02E1E6C9A8800FE98F3 /* THTTPSessionTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFCC1E6C9A8800FE98F3 /* THTTPSessionTransport.m */; };
+		997DB02F1E6C9A8800FE98F3 /* THTTPTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFCD1E6C9A8800FE98F3 /* THTTPTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0301E6C9A8800FE98F3 /* THTTPTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFCD1E6C9A8800FE98F3 /* THTTPTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0311E6C9A8800FE98F3 /* THTTPTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFCE1E6C9A8800FE98F3 /* THTTPTransport.m */; };
+		997DB0321E6C9A8800FE98F3 /* THTTPTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFCE1E6C9A8800FE98F3 /* THTTPTransport.m */; };
+		997DB0331E6C9A8800FE98F3 /* TMemoryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFCF1E6C9A8800FE98F3 /* TMemoryBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0341E6C9A8800FE98F3 /* TMemoryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFCF1E6C9A8800FE98F3 /* TMemoryBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0351E6C9A8800FE98F3 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD01E6C9A8800FE98F3 /* TMemoryBuffer.m */; };
+		997DB0361E6C9A8800FE98F3 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD01E6C9A8800FE98F3 /* TMemoryBuffer.m */; };
+		997DB0371E6C9A8800FE98F3 /* TNSFileHandleTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD11E6C9A8800FE98F3 /* TNSFileHandleTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0381E6C9A8800FE98F3 /* TNSFileHandleTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD11E6C9A8800FE98F3 /* TNSFileHandleTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0391E6C9A8800FE98F3 /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD21E6C9A8800FE98F3 /* TNSFileHandleTransport.m */; };
+		997DB03A1E6C9A8800FE98F3 /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD21E6C9A8800FE98F3 /* TNSFileHandleTransport.m */; };
+		997DB03B1E6C9A8800FE98F3 /* TNSStreamTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD31E6C9A8800FE98F3 /* TNSStreamTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB03C1E6C9A8800FE98F3 /* TNSStreamTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD31E6C9A8800FE98F3 /* TNSStreamTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB03D1E6C9A8800FE98F3 /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD41E6C9A8800FE98F3 /* TNSStreamTransport.m */; };
+		997DB03E1E6C9A8800FE98F3 /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD41E6C9A8800FE98F3 /* TNSStreamTransport.m */; };
+		997DB03F1E6C9A8800FE98F3 /* TSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD51E6C9A8800FE98F3 /* TSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0401E6C9A8800FE98F3 /* TSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD51E6C9A8800FE98F3 /* TSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0411E6C9A8800FE98F3 /* TSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD61E6C9A8800FE98F3 /* TSocketTransport.m */; };
+		997DB0421E6C9A8800FE98F3 /* TSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD61E6C9A8800FE98F3 /* TSocketTransport.m */; };
+		997DB0431E6C9A8800FE98F3 /* TSSLSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD71E6C9A8800FE98F3 /* TSSLSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0441E6C9A8800FE98F3 /* TSSLSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD71E6C9A8800FE98F3 /* TSSLSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0451E6C9A8800FE98F3 /* TSSLSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD81E6C9A8800FE98F3 /* TSSLSocketTransport.m */; };
+		997DB0461E6C9A8800FE98F3 /* TSSLSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFD81E6C9A8800FE98F3 /* TSSLSocketTransport.m */; };
+		997DB0471E6C9A8800FE98F3 /* TSSLSocketTransportError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD91E6C9A8800FE98F3 /* TSSLSocketTransportError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0481E6C9A8800FE98F3 /* TSSLSocketTransportError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFD91E6C9A8800FE98F3 /* TSSLSocketTransportError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0491E6C9A8800FE98F3 /* TSSLSocketTransportError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDA1E6C9A8800FE98F3 /* TSSLSocketTransportError.m */; };
+		997DB04A1E6C9A8800FE98F3 /* TSSLSocketTransportError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDA1E6C9A8800FE98F3 /* TSSLSocketTransportError.m */; };
+		997DB04B1E6C9A8800FE98F3 /* TTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFDB1E6C9A8800FE98F3 /* TTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB04C1E6C9A8800FE98F3 /* TTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFDB1E6C9A8800FE98F3 /* TTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB04D1E6C9A8800FE98F3 /* TTransportError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFDC1E6C9A8800FE98F3 /* TTransportError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB04E1E6C9A8800FE98F3 /* TTransportError.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFDC1E6C9A8800FE98F3 /* TTransportError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB04F1E6C9A8800FE98F3 /* TTransportError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDD1E6C9A8800FE98F3 /* TTransportError.m */; };
+		997DB0501E6C9A8800FE98F3 /* TTransportError.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDD1E6C9A8800FE98F3 /* TTransportError.m */; };
+		997DB0511E6C9A8800FE98F3 /* TSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDE1E6C9A8800FE98F3 /* TSerializable.swift */; };
+		997DB0521E6C9A8800FE98F3 /* TSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDE1E6C9A8800FE98F3 /* TSerializable.swift */; };
+		997DB0531E6C9A8800FE98F3 /* TSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDF1E6C9A8800FE98F3 /* TSet.swift */; };
+		997DB0541E6C9A8800FE98F3 /* TSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFDF1E6C9A8800FE98F3 /* TSet.swift */; };
+		997DB0551E6C9A8800FE98F3 /* TSharedProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFE01E6C9A8800FE98F3 /* TSharedProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0561E6C9A8800FE98F3 /* TSharedProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAFE01E6C9A8800FE98F3 /* TSharedProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997DB0571E6C9A8800FE98F3 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFE11E6C9A8800FE98F3 /* TSharedProcessorFactory.m */; };
+		997DB0581E6C9A8800FE98F3 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFE11E6C9A8800FE98F3 /* TSharedProcessorFactory.m */; };
+		997DB0591E6C9A8800FE98F3 /* TStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFE21E6C9A8800FE98F3 /* TStruct.swift */; };
+		997DB05A1E6C9A8800FE98F3 /* TStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DAFE21E6C9A8800FE98F3 /* TStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		997DAF0F1E6C99B700FE98F3 /* Thrift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thrift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997DAF1F1E6C99CE00FE98F3 /* Thrift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thrift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997DAFA41E6C9A8800FE98F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997DAFA61E6C9A8800FE98F3 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		997DAFA71E6C9A8800FE98F3 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		997DAFA81E6C9A8800FE98F3 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		997DAFA91E6C9A8800FE98F3 /* TCompactProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCompactProtocol.h; sourceTree = "<group>"; };
+		997DAFAA1E6C9A8800FE98F3 /* TCompactProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCompactProtocol.m; sourceTree = "<group>"; };
+		997DAFAB1E6C9A8800FE98F3 /* TMultiplexedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMultiplexedProtocol.h; sourceTree = "<group>"; };
+		997DAFAC1E6C9A8800FE98F3 /* TMultiplexedProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMultiplexedProtocol.m; sourceTree = "<group>"; };
+		997DAFAD1E6C9A8800FE98F3 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		997DAFAE1E6C9A8800FE98F3 /* TProtocolDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolDecorator.h; sourceTree = "<group>"; };
+		997DAFAF1E6C9A8800FE98F3 /* TProtocolDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolDecorator.m; sourceTree = "<group>"; };
+		997DAFB01E6C9A8800FE98F3 /* TProtocolError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolError.h; sourceTree = "<group>"; };
+		997DAFB11E6C9A8800FE98F3 /* TProtocolError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolError.m; sourceTree = "<group>"; };
+		997DAFB21E6C9A8800FE98F3 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		997DAFB31E6C9A8800FE98F3 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		997DAFB41E6C9A8800FE98F3 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		997DAFB61E6C9A8800FE98F3 /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		997DAFB71E6C9A8800FE98F3 /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		997DAFB81E6C9A8800FE98F3 /* TApplicationError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationError.h; sourceTree = "<group>"; };
+		997DAFB91E6C9A8800FE98F3 /* TApplicationError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationError.m; sourceTree = "<group>"; };
+		997DAFBA1E6C9A8800FE98F3 /* TBaseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBaseClient.h; sourceTree = "<group>"; };
+		997DAFBB1E6C9A8800FE98F3 /* TBaseClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseClient.m; sourceTree = "<group>"; };
+		997DAFBC1E6C9A8800FE98F3 /* TBinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBinary.swift; sourceTree = "<group>"; };
+		997DAFBD1E6C9A8800FE98F3 /* TEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEnum.swift; sourceTree = "<group>"; };
+		997DAFBE1E6C9A8800FE98F3 /* TError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TError.h; sourceTree = "<group>"; };
+		997DAFBF1E6C9A8800FE98F3 /* TError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TError.m; sourceTree = "<group>"; };
+		997DAFC11E6C9A8800FE98F3 /* Thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		997DAFC21E6C9A8800FE98F3 /* TList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TList.swift; sourceTree = "<group>"; };
+		997DAFC31E6C9A8800FE98F3 /* TMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMap.swift; sourceTree = "<group>"; };
+		997DAFC41E6C9A8800FE98F3 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		997DAFC51E6C9A8800FE98F3 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		997DAFC61E6C9A8800FE98F3 /* TProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TProtocol.swift; sourceTree = "<group>"; };
+		997DAFC81E6C9A8800FE98F3 /* TAsyncTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAsyncTransport.h; sourceTree = "<group>"; };
+		997DAFC91E6C9A8800FE98F3 /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		997DAFCA1E6C9A8800FE98F3 /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		997DAFCB1E6C9A8800FE98F3 /* THTTPSessionTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPSessionTransport.h; sourceTree = "<group>"; };
+		997DAFCC1E6C9A8800FE98F3 /* THTTPSessionTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPSessionTransport.m; sourceTree = "<group>"; };
+		997DAFCD1E6C9A8800FE98F3 /* THTTPTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPTransport.h; sourceTree = "<group>"; };
+		997DAFCE1E6C9A8800FE98F3 /* THTTPTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPTransport.m; sourceTree = "<group>"; };
+		997DAFCF1E6C9A8800FE98F3 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		997DAFD01E6C9A8800FE98F3 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		997DAFD11E6C9A8800FE98F3 /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		997DAFD21E6C9A8800FE98F3 /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		997DAFD31E6C9A8800FE98F3 /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		997DAFD41E6C9A8800FE98F3 /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		997DAFD51E6C9A8800FE98F3 /* TSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketTransport.h; sourceTree = "<group>"; };
+		997DAFD61E6C9A8800FE98F3 /* TSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketTransport.m; sourceTree = "<group>"; };
+		997DAFD71E6C9A8800FE98F3 /* TSSLSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketTransport.h; sourceTree = "<group>"; };
+		997DAFD81E6C9A8800FE98F3 /* TSSLSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketTransport.m; sourceTree = "<group>"; };
+		997DAFD91E6C9A8800FE98F3 /* TSSLSocketTransportError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketTransportError.h; sourceTree = "<group>"; };
+		997DAFDA1E6C9A8800FE98F3 /* TSSLSocketTransportError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketTransportError.m; sourceTree = "<group>"; };
+		997DAFDB1E6C9A8800FE98F3 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		997DAFDC1E6C9A8800FE98F3 /* TTransportError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportError.h; sourceTree = "<group>"; };
+		997DAFDD1E6C9A8800FE98F3 /* TTransportError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportError.m; sourceTree = "<group>"; };
+		997DAFDE1E6C9A8800FE98F3 /* TSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSerializable.swift; sourceTree = "<group>"; };
+		997DAFDF1E6C9A8800FE98F3 /* TSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSet.swift; sourceTree = "<group>"; };
+		997DAFE01E6C9A8800FE98F3 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		997DAFE11E6C9A8800FE98F3 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		997DAFE21E6C9A8800FE98F3 /* TStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TStruct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997DAF0B1E6C99B700FE98F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997DAF1B1E6C99CE00FE98F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		997DAF051E6C99B700FE98F3 = {
+			isa = PBXGroup;
+			children = (
+				997DAFA31E6C9A8800FE98F3 /* src */,
+				997DAF101E6C99B700FE98F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		997DAF101E6C99B700FE98F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				997DAF0F1E6C99B700FE98F3 /* Thrift.framework */,
+				997DAF1F1E6C99CE00FE98F3 /* Thrift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		997DAFA31E6C9A8800FE98F3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				997DAFA41E6C9A8800FE98F3 /* Info.plist */,
+				997DAFA51E6C9A8800FE98F3 /* protocol */,
+				997DAFB51E6C9A8800FE98F3 /* server */,
+				997DAFB81E6C9A8800FE98F3 /* TApplicationError.h */,
+				997DAFB91E6C9A8800FE98F3 /* TApplicationError.m */,
+				997DAFBA1E6C9A8800FE98F3 /* TBaseClient.h */,
+				997DAFBB1E6C9A8800FE98F3 /* TBaseClient.m */,
+				997DAFBC1E6C9A8800FE98F3 /* TBinary.swift */,
+				997DAFBD1E6C9A8800FE98F3 /* TEnum.swift */,
+				997DAFBE1E6C9A8800FE98F3 /* TError.h */,
+				997DAFBF1E6C9A8800FE98F3 /* TError.m */,
+				997DAFC11E6C9A8800FE98F3 /* Thrift.h */,
+				997DAFC21E6C9A8800FE98F3 /* TList.swift */,
+				997DAFC31E6C9A8800FE98F3 /* TMap.swift */,
+				997DAFC41E6C9A8800FE98F3 /* TProcessor.h */,
+				997DAFC51E6C9A8800FE98F3 /* TProcessorFactory.h */,
+				997DAFC61E6C9A8800FE98F3 /* TProtocol.swift */,
+				997DAFC71E6C9A8800FE98F3 /* transport */,
+				997DAFDE1E6C9A8800FE98F3 /* TSerializable.swift */,
+				997DAFDF1E6C9A8800FE98F3 /* TSet.swift */,
+				997DAFE01E6C9A8800FE98F3 /* TSharedProcessorFactory.h */,
+				997DAFE11E6C9A8800FE98F3 /* TSharedProcessorFactory.m */,
+				997DAFE21E6C9A8800FE98F3 /* TStruct.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		997DAFA51E6C9A8800FE98F3 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				997DAFA61E6C9A8800FE98F3 /* TBase.h */,
+				997DAFA71E6C9A8800FE98F3 /* TBinaryProtocol.h */,
+				997DAFA81E6C9A8800FE98F3 /* TBinaryProtocol.m */,
+				997DAFA91E6C9A8800FE98F3 /* TCompactProtocol.h */,
+				997DAFAA1E6C9A8800FE98F3 /* TCompactProtocol.m */,
+				997DAFAB1E6C9A8800FE98F3 /* TMultiplexedProtocol.h */,
+				997DAFAC1E6C9A8800FE98F3 /* TMultiplexedProtocol.m */,
+				997DAFAD1E6C9A8800FE98F3 /* TProtocol.h */,
+				997DAFAE1E6C9A8800FE98F3 /* TProtocolDecorator.h */,
+				997DAFAF1E6C9A8800FE98F3 /* TProtocolDecorator.m */,
+				997DAFB01E6C9A8800FE98F3 /* TProtocolError.h */,
+				997DAFB11E6C9A8800FE98F3 /* TProtocolError.m */,
+				997DAFB21E6C9A8800FE98F3 /* TProtocolFactory.h */,
+				997DAFB31E6C9A8800FE98F3 /* TProtocolUtil.h */,
+				997DAFB41E6C9A8800FE98F3 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		997DAFB51E6C9A8800FE98F3 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				997DAFB61E6C9A8800FE98F3 /* TSocketServer.h */,
+				997DAFB71E6C9A8800FE98F3 /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		997DAFC71E6C9A8800FE98F3 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				997DAFC81E6C9A8800FE98F3 /* TAsyncTransport.h */,
+				997DAFC91E6C9A8800FE98F3 /* TFramedTransport.h */,
+				997DAFCA1E6C9A8800FE98F3 /* TFramedTransport.m */,
+				997DAFCB1E6C9A8800FE98F3 /* THTTPSessionTransport.h */,
+				997DAFCC1E6C9A8800FE98F3 /* THTTPSessionTransport.m */,
+				997DAFCD1E6C9A8800FE98F3 /* THTTPTransport.h */,
+				997DAFCE1E6C9A8800FE98F3 /* THTTPTransport.m */,
+				997DAFCF1E6C9A8800FE98F3 /* TMemoryBuffer.h */,
+				997DAFD01E6C9A8800FE98F3 /* TMemoryBuffer.m */,
+				997DAFD11E6C9A8800FE98F3 /* TNSFileHandleTransport.h */,
+				997DAFD21E6C9A8800FE98F3 /* TNSFileHandleTransport.m */,
+				997DAFD31E6C9A8800FE98F3 /* TNSStreamTransport.h */,
+				997DAFD41E6C9A8800FE98F3 /* TNSStreamTransport.m */,
+				997DAFD51E6C9A8800FE98F3 /* TSocketTransport.h */,
+				997DAFD61E6C9A8800FE98F3 /* TSocketTransport.m */,
+				997DAFD71E6C9A8800FE98F3 /* TSSLSocketTransport.h */,
+				997DAFD81E6C9A8800FE98F3 /* TSSLSocketTransport.m */,
+				997DAFD91E6C9A8800FE98F3 /* TSSLSocketTransportError.h */,
+				997DAFDA1E6C9A8800FE98F3 /* TSSLSocketTransportError.m */,
+				997DAFDB1E6C9A8800FE98F3 /* TTransport.h */,
+				997DAFDC1E6C9A8800FE98F3 /* TTransportError.h */,
+				997DAFDD1E6C9A8800FE98F3 /* TTransportError.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		997DAF0C1E6C99B700FE98F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DAFF91E6C9A8800FE98F3 /* TProtocolError.h in Headers */,
+				997DB0211E6C9A8800FE98F3 /* TProcessorFactory.h in Headers */,
+				997DB00B1E6C9A8800FE98F3 /* TBaseClient.h in Headers */,
+				997DB0071E6C9A8800FE98F3 /* TApplicationError.h in Headers */,
+				997DAFEB1E6C9A8800FE98F3 /* TCompactProtocol.h in Headers */,
+				997DB0551E6C9A8800FE98F3 /* TSharedProcessorFactory.h in Headers */,
+				997DAFF51E6C9A8800FE98F3 /* TProtocolDecorator.h in Headers */,
+				997DB01F1E6C9A8800FE98F3 /* TProcessor.h in Headers */,
+				997DB0031E6C9A8800FE98F3 /* TSocketServer.h in Headers */,
+				997DAFE71E6C9A8800FE98F3 /* TBinaryProtocol.h in Headers */,
+				997DAFE51E6C9A8800FE98F3 /* TBase.h in Headers */,
+				997DB03B1E6C9A8800FE98F3 /* TNSStreamTransport.h in Headers */,
+				997DB0371E6C9A8800FE98F3 /* TNSFileHandleTransport.h in Headers */,
+				997DB0271E6C9A8800FE98F3 /* TFramedTransport.h in Headers */,
+				997DB04D1E6C9A8800FE98F3 /* TTransportError.h in Headers */,
+				997DB0251E6C9A8800FE98F3 /* TAsyncTransport.h in Headers */,
+				997DB04B1E6C9A8800FE98F3 /* TTransport.h in Headers */,
+				997DB0471E6C9A8800FE98F3 /* TSSLSocketTransportError.h in Headers */,
+				997DB0331E6C9A8800FE98F3 /* TMemoryBuffer.h in Headers */,
+				997DB02B1E6C9A8800FE98F3 /* THTTPSessionTransport.h in Headers */,
+				997DB02F1E6C9A8800FE98F3 /* THTTPTransport.h in Headers */,
+				997DB0431E6C9A8800FE98F3 /* TSSLSocketTransport.h in Headers */,
+				997DB03F1E6C9A8800FE98F3 /* TSocketTransport.h in Headers */,
+				997DAFF31E6C9A8800FE98F3 /* TProtocol.h in Headers */,
+				997DAFFD1E6C9A8800FE98F3 /* TProtocolFactory.h in Headers */,
+				997DAFEF1E6C9A8800FE98F3 /* TMultiplexedProtocol.h in Headers */,
+				997DB0191E6C9A8800FE98F3 /* Thrift.h in Headers */,
+				997DB0131E6C9A8800FE98F3 /* TError.h in Headers */,
+				997DAFFF1E6C9A8800FE98F3 /* TProtocolUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997DAF1C1E6C99CE00FE98F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DAFFA1E6C9A8800FE98F3 /* TProtocolError.h in Headers */,
+				997DB0221E6C9A8800FE98F3 /* TProcessorFactory.h in Headers */,
+				997DB00C1E6C9A8800FE98F3 /* TBaseClient.h in Headers */,
+				997DB0081E6C9A8800FE98F3 /* TApplicationError.h in Headers */,
+				997DAFEC1E6C9A8800FE98F3 /* TCompactProtocol.h in Headers */,
+				997DB0561E6C9A8800FE98F3 /* TSharedProcessorFactory.h in Headers */,
+				997DAFF61E6C9A8800FE98F3 /* TProtocolDecorator.h in Headers */,
+				997DB0201E6C9A8800FE98F3 /* TProcessor.h in Headers */,
+				997DB0041E6C9A8800FE98F3 /* TSocketServer.h in Headers */,
+				997DAFE81E6C9A8800FE98F3 /* TBinaryProtocol.h in Headers */,
+				997DAFE61E6C9A8800FE98F3 /* TBase.h in Headers */,
+				997DB03C1E6C9A8800FE98F3 /* TNSStreamTransport.h in Headers */,
+				997DB0381E6C9A8800FE98F3 /* TNSFileHandleTransport.h in Headers */,
+				997DB0281E6C9A8800FE98F3 /* TFramedTransport.h in Headers */,
+				997DB04E1E6C9A8800FE98F3 /* TTransportError.h in Headers */,
+				997DB0261E6C9A8800FE98F3 /* TAsyncTransport.h in Headers */,
+				997DB04C1E6C9A8800FE98F3 /* TTransport.h in Headers */,
+				997DB0481E6C9A8800FE98F3 /* TSSLSocketTransportError.h in Headers */,
+				997DB0341E6C9A8800FE98F3 /* TMemoryBuffer.h in Headers */,
+				997DB02C1E6C9A8800FE98F3 /* THTTPSessionTransport.h in Headers */,
+				997DB0301E6C9A8800FE98F3 /* THTTPTransport.h in Headers */,
+				997DB0441E6C9A8800FE98F3 /* TSSLSocketTransport.h in Headers */,
+				997DB0401E6C9A8800FE98F3 /* TSocketTransport.h in Headers */,
+				997DAFF41E6C9A8800FE98F3 /* TProtocol.h in Headers */,
+				997DAFFE1E6C9A8800FE98F3 /* TProtocolFactory.h in Headers */,
+				997DAFF01E6C9A8800FE98F3 /* TMultiplexedProtocol.h in Headers */,
+				997DB01A1E6C9A8800FE98F3 /* Thrift.h in Headers */,
+				997DB0141E6C9A8800FE98F3 /* TError.h in Headers */,
+				997DB0001E6C9A8800FE98F3 /* TProtocolUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		997DAF0E1E6C99B700FE98F3 /* Thrift_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997DAF171E6C99B700FE98F3 /* Build configuration list for PBXNativeTarget "Thrift_iOS" */;
+			buildPhases = (
+				997DAF0A1E6C99B700FE98F3 /* Sources */,
+				997DAF0B1E6C99B700FE98F3 /* Frameworks */,
+				997DAF0C1E6C99B700FE98F3 /* Headers */,
+				997DAF0D1E6C99B700FE98F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thrift_iOS;
+			productName = Thrift_iOS;
+			productReference = 997DAF0F1E6C99B700FE98F3 /* Thrift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		997DAF1E1E6C99CE00FE98F3 /* Thrift_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997DAF241E6C99CE00FE98F3 /* Build configuration list for PBXNativeTarget "Thrift_Watch" */;
+			buildPhases = (
+				997DAF1A1E6C99CE00FE98F3 /* Sources */,
+				997DAF1B1E6C99CE00FE98F3 /* Frameworks */,
+				997DAF1C1E6C99CE00FE98F3 /* Headers */,
+				997DAF1D1E6C99CE00FE98F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thrift_Watch;
+			productName = Thrift_Watch;
+			productReference = 997DAF1F1E6C99CE00FE98F3 /* Thrift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997DAF061E6C99B700FE98F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "George Zinyakov";
+				TargetAttributes = {
+					997DAF0E1E6C99B700FE98F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F9SKW2FZHU;
+						ProvisioningStyle = Automatic;
+					};
+					997DAF1E1E6C99CE00FE98F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F9SKW2FZHU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 997DAF091E6C99B700FE98F3 /* Build configuration list for PBXProject "Thrift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 997DAF051E6C99B700FE98F3;
+			productRefGroup = 997DAF101E6C99B700FE98F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997DAF0E1E6C99B700FE98F3 /* Thrift_iOS */,
+				997DAF1E1E6C99CE00FE98F3 /* Thrift_Watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997DAF0D1E6C99B700FE98F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DAFE31E6C9A8800FE98F3 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997DAF1D1E6C99CE00FE98F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DAFE41E6C9A8800FE98F3 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997DAF0A1E6C99B700FE98F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DB0091E6C9A8800FE98F3 /* TApplicationError.m in Sources */,
+				997DAFFB1E6C9A8800FE98F3 /* TProtocolError.m in Sources */,
+				997DB0111E6C9A8800FE98F3 /* TEnum.swift in Sources */,
+				997DB01D1E6C9A8800FE98F3 /* TMap.swift in Sources */,
+				997DB0311E6C9A8800FE98F3 /* THTTPTransport.m in Sources */,
+				997DB0391E6C9A8800FE98F3 /* TNSFileHandleTransport.m in Sources */,
+				997DAFF71E6C9A8800FE98F3 /* TProtocolDecorator.m in Sources */,
+				997DB0231E6C9A8800FE98F3 /* TProtocol.swift in Sources */,
+				997DB00F1E6C9A8800FE98F3 /* TBinary.swift in Sources */,
+				997DB0511E6C9A8800FE98F3 /* TSerializable.swift in Sources */,
+				997DB0451E6C9A8800FE98F3 /* TSSLSocketTransport.m in Sources */,
+				997DB0151E6C9A8800FE98F3 /* TError.m in Sources */,
+				997DB04F1E6C9A8800FE98F3 /* TTransportError.m in Sources */,
+				997DB0491E6C9A8800FE98F3 /* TSSLSocketTransportError.m in Sources */,
+				997DB0051E6C9A8800FE98F3 /* TSocketServer.m in Sources */,
+				997DB0011E6C9A8800FE98F3 /* TProtocolUtil.m in Sources */,
+				997DB02D1E6C9A8800FE98F3 /* THTTPSessionTransport.m in Sources */,
+				997DAFED1E6C9A8800FE98F3 /* TCompactProtocol.m in Sources */,
+				997DAFF11E6C9A8800FE98F3 /* TMultiplexedProtocol.m in Sources */,
+				997DB0351E6C9A8800FE98F3 /* TMemoryBuffer.m in Sources */,
+				997DB00D1E6C9A8800FE98F3 /* TBaseClient.m in Sources */,
+				997DB0591E6C9A8800FE98F3 /* TStruct.swift in Sources */,
+				997DB0291E6C9A8800FE98F3 /* TFramedTransport.m in Sources */,
+				997DAFE91E6C9A8800FE98F3 /* TBinaryProtocol.m in Sources */,
+				997DB0571E6C9A8800FE98F3 /* TSharedProcessorFactory.m in Sources */,
+				997DB0411E6C9A8800FE98F3 /* TSocketTransport.m in Sources */,
+				997DB0531E6C9A8800FE98F3 /* TSet.swift in Sources */,
+				997DB03D1E6C9A8800FE98F3 /* TNSStreamTransport.m in Sources */,
+				997DB01B1E6C9A8800FE98F3 /* TList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997DAF1A1E6C99CE00FE98F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997DB00A1E6C9A8800FE98F3 /* TApplicationError.m in Sources */,
+				997DAFFC1E6C9A8800FE98F3 /* TProtocolError.m in Sources */,
+				997DB0121E6C9A8800FE98F3 /* TEnum.swift in Sources */,
+				997DB01E1E6C9A8800FE98F3 /* TMap.swift in Sources */,
+				997DB0321E6C9A8800FE98F3 /* THTTPTransport.m in Sources */,
+				997DB03A1E6C9A8800FE98F3 /* TNSFileHandleTransport.m in Sources */,
+				997DAFF81E6C9A8800FE98F3 /* TProtocolDecorator.m in Sources */,
+				997DB0241E6C9A8800FE98F3 /* TProtocol.swift in Sources */,
+				997DB0101E6C9A8800FE98F3 /* TBinary.swift in Sources */,
+				997DB0521E6C9A8800FE98F3 /* TSerializable.swift in Sources */,
+				997DB0461E6C9A8800FE98F3 /* TSSLSocketTransport.m in Sources */,
+				997DB0161E6C9A8800FE98F3 /* TError.m in Sources */,
+				997DB0501E6C9A8800FE98F3 /* TTransportError.m in Sources */,
+				997DB04A1E6C9A8800FE98F3 /* TSSLSocketTransportError.m in Sources */,
+				997DB0061E6C9A8800FE98F3 /* TSocketServer.m in Sources */,
+				997DB0021E6C9A8800FE98F3 /* TProtocolUtil.m in Sources */,
+				997DB02E1E6C9A8800FE98F3 /* THTTPSessionTransport.m in Sources */,
+				997DAFEE1E6C9A8800FE98F3 /* TCompactProtocol.m in Sources */,
+				997DAFF21E6C9A8800FE98F3 /* TMultiplexedProtocol.m in Sources */,
+				997DB0361E6C9A8800FE98F3 /* TMemoryBuffer.m in Sources */,
+				997DB00E1E6C9A8800FE98F3 /* TBaseClient.m in Sources */,
+				997DB05A1E6C9A8800FE98F3 /* TStruct.swift in Sources */,
+				997DB02A1E6C9A8800FE98F3 /* TFramedTransport.m in Sources */,
+				997DAFEA1E6C9A8800FE98F3 /* TBinaryProtocol.m in Sources */,
+				997DB0581E6C9A8800FE98F3 /* TSharedProcessorFactory.m in Sources */,
+				997DB0421E6C9A8800FE98F3 /* TSocketTransport.m in Sources */,
+				997DB0541E6C9A8800FE98F3 /* TSet.swift in Sources */,
+				997DB03E1E6C9A8800FE98F3 /* TNSStreamTransport.m in Sources */,
+				997DB01C1E6C9A8800FE98F3 /* TList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		997DAF151E6C99B700FE98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		997DAF161E6C99B700FE98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		997DAF181E6C99B700FE98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F9SKW2FZHU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zinyakov.Thrift-iOS";
+				PRODUCT_NAME = Thrift;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		997DAF191E6C99B700FE98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F9SKW2FZHU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zinyakov.Thrift-iOS";
+				PRODUCT_NAME = Thrift;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		997DAF251E6C99CE00FE98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F9SKW2FZHU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zinyakov.Thrift-Watch";
+				PRODUCT_NAME = Thrift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		997DAF261E6C99CE00FE98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F9SKW2FZHU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zinyakov.Thrift-Watch";
+				PRODUCT_NAME = Thrift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997DAF091E6C99B700FE98F3 /* Build configuration list for PBXProject "Thrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997DAF151E6C99B700FE98F3 /* Debug */,
+				997DAF161E6C99B700FE98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997DAF171E6C99B700FE98F3 /* Build configuration list for PBXNativeTarget "Thrift_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997DAF181E6C99B700FE98F3 /* Debug */,
+				997DAF191E6C99B700FE98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997DAF241E6C99CE00FE98F3 /* Build configuration list for PBXNativeTarget "Thrift_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997DAF251E6C99CE00FE98F3 /* Debug */,
+				997DAF261E6C99CE00FE98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997DAF061E6C99B700FE98F3 /* Project object */;
+}

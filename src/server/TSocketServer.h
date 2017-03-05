@@ -24,7 +24,7 @@
 #if !TARGET_OS_IPHONE
 #import <CoreServices/CoreServices.h>
 #else
-#import <CFNetwork/CFNetwork.h>
+
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
