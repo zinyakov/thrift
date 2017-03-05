@@ -105,6 +105,7 @@
 		997DAEE81E6C921500FE98F3 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAE881E6C8DEC00FE98F3 /* TSharedProcessorFactory.m */; };
 		997DAEE91E6C921600FE98F3 /* TSharedProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DAE871E6C8DEC00FE98F3 /* TSharedProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		997DAEEA1E6C921600FE98F3 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 997DAE881E6C8DEC00FE98F3 /* TSharedProcessorFactory.m */; };
+		997DAEEF1E6C962100FE98F3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997DAEEE1E6C962100FE98F3 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +161,8 @@
 		997DAE861E6C8DEC00FE98F3 /* TTransportException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
 		997DAE871E6C8DEC00FE98F3 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
 		997DAE881E6C8DEC00FE98F3 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		997DAEEC1E6C951800FE98F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		997DAEEE1E6C962100FE98F3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997DAEEF1E6C962100FE98F3 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +189,7 @@
 			children = (
 				997DAE521E6C8DEC00FE98F3 /* src */,
 				997DAE3B1E6C8CC700FE98F3 /* Products */,
+				997DAEEB1E6C951800FE98F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,6 +281,15 @@
 				997DAE861E6C8DEC00FE98F3 /* TTransportException.m */,
 			);
 			path = transport;
+			sourceTree = "<group>";
+		};
+		997DAEEB1E6C951800FE98F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				997DAEEE1E6C962100FE98F3 /* MobileCoreServices.framework */,
+				997DAEEC1E6C951800FE98F3 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
